@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using MovieListings.Models;
 
 namespace MovieListings
 {
@@ -29,6 +31,8 @@ namespace MovieListings
         {
             // Add framework services.
             services.AddMvc();
+
+            services.AddDbContext<MovieContext>(options => options.UseSqlite("Date Source=MovieListings.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
