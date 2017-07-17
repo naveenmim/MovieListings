@@ -1,0 +1,8 @@
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\bin\Debug\netcoreapp1.1\MovieListings.deps.json
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\bin\Debug\netcoreapp1.1\MovieListings.runtimeconfig.json
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\bin\Debug\netcoreapp1.1\MovieListings.runtimeconfig.dev.json
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\bin\Debug\netcoreapp1.1\MovieListings.dll
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\bin\Debug\netcoreapp1.1\MovieListings.pdb
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\obj\Debug\netcoreapp1.1\MovieListings.AssemblyInfo.cs
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\obj\Debug\netcoreapp1.1\MovieListings.dll
+C:\Users\IBM_ADMIN\Documents\dotnetcore\MovieListings\obj\Debug\netcoreapp1.1\MovieListings.pdb
