@@ -32,7 +32,7 @@ namespace MovieListings
             // Add framework services.
             services.AddMvc();
 
-            services.AddDbContext<MovieContext>(options => options.UseSqlite("Date Source=MovieListings.db"));
+            services.AddDbContext<MovieContext>(options => options.UseSqlite("Data Source=MovieListings.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +59,8 @@ namespace MovieListings
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            DBinitialize.EnsureCreated(app.ApplicationServices);
         }
     }
 }
